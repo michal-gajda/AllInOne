@@ -15,4 +15,11 @@
     <Project Path="src/WebApi.Linux/AllInOne.WebApi.Linux.csproj" />
     <Project Path="src/WebApi.Windows/AllInOne.WebApi.Windows.csproj" Id="6bf0f822-2907-4078-a181-f262bd5bebc2" />
   </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/Application.FunctionalTests/">
+    <Project Path="tests/Application.FunctionalTests/AllInOne.Application.FunctionalTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/Domain.UnitTests/">
+    <Project Path="tests/Domain.UnitTests/AllInOne.Domain.UnitTests.csproj" />
+  </Folder>
 </Solution>

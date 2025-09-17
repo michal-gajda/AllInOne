@@ -8,3 +8,7 @@ windows:
 
 linux:
 	dotnet build $(LINUX_PROJECT) --configuration $(CONFIG)
+
+test:
+	dotnet test tests/Domain.UnitTests/AllInOne.Domain.UnitTests.csproj --configuration $(CONFIG)
+	dotnet test tests/Application.FunctionalTests/AllInOne.Application.FunctionalTests.csproj --configuration $(CONFIG)
