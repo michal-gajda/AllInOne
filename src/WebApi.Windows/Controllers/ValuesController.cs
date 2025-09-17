@@ -3,7 +3,7 @@
     using System.Collections.Generic;
     using System.Web.Http;
 
-    public class ValuesController : ApiController
+    public sealed class ValuesController : ApiController
     {
         // DELETE api/values/5
         public void Delete(int id)
