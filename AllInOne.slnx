@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Application/">
+    <Project Path="src/Application/AllInOne.Application.csproj" />
+  </Folder>
+  <Folder Name="/src/Domain/">
+    <Project Path="src/Domain/AllInOne.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="src/Infrastructure/AllInOne.Infrastructure.csproj" />
+    <Project Path="src/Infrastructure.Linux/AllInOne.Infrastructure.Linux.csproj" />
+    <Project Path="src/Infrastructure.Windows/AllInOne.Infrastructure.Windows.csproj" Id="d8ec0e9c-949f-49e2-9fc5-7a938aad6ec2" />
+  </Folder>
+  <Folder Name="/src/WebApi/">
+    <Project Path="src/WebApi.Linux/AllInOne.WebApi.Linux.csproj" />
+    <Project Path="src/WebApi.Windows/AllInOne.WebApi.Windows.csproj" Id="6bf0f822-2907-4078-a181-f262bd5bebc2" />
+  </Folder>
+</Solution>
